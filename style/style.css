@@ -29,10 +29,10 @@ p{
 .himachal{
     display: flex;
     gap: 50px;
-    max-width: 1440px;
+    max-width: 1170px;
     height: 550px;
     /* border: 3px solid yellow; */
-    margin: 20px 310px;
+    margin: 10px auto ;
 }
 .climate{
     display: grid;
@@ -60,5 +60,13 @@ p{
     height: 550px;
     border-radius: 16px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+@media screen and (max-width : 600px) {
+    .himachal{
+        flex-direction: column;
+    }
+    .climate{
+        flex-direction: column;
+    }
 }
 /* himacal end */
