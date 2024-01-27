@@ -4,7 +4,13 @@
 }
 /* shere item start */
   @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Mulish:wght@400;800&family=Open+Sans:wght@400;700;800&display=swap');
-body{
+ 
+
+
+  /*shere item end  */
+
+ body{
+    /* max-width: 1250px; */
     font-family: 'Mulish', sans-serif;
 }
 h2{
@@ -19,3 +25,40 @@ p{
     font-weight: 400;
 }
 /* shere item end*/
+/* himacal,climate start */
+.himachal{
+    display: flex;
+    gap: 50px;
+    max-width: 1440px;
+    height: 550px;
+    /* border: 3px solid yellow; */
+    margin: 20px 310px;
+}
+.climate{
+    display: grid;
+    gap: 20px;
+}
+.climate li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.climate .btn{
+    width: 160px;
+    height: 45px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 15px;
+    font-weight: 800;
+    border: none;
+}
+.pahar img{
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+/* himacal end */
